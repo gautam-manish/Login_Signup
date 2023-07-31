@@ -1,35 +1,32 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-image: url(background.jpg);
     background-size: 100% 740px;
-    
 }
 .container{
     width: 300px;
     height: 380px;
-    text-align: center;
-    color: black;
     background-color: #967259;
-    margin-left: 36%;
-    margin-top: 7%;
+    text-align: center;
     border: solid #38220f 6px;
     border-radius: 30px;
+    margin-left: 36%;
+    margin-top: 7%;
 }
 .container .text{
     position: relative;
     top: 7%;
-}
-
+} 
 .inp{
     border: none;
     background-color: #967259;
     border-bottom: 3px solid #6F4E37;
     width: 250px;
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: 15px;
     outline: none;
     color: black;
 }
@@ -37,28 +34,26 @@ body{
     color: black;
 }
 p{
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 20px;
 }
-
 .text button{
-    width: 250px;
-    height: 44px;
     background-color: #6F4E37;
-    font-size: 22px;
-    color: black;
     border: none;
-    border-radius: 25px;
+    width: 200px;
+    height: 30px;
     margin-top: 20px;
-    /* cursor: pointer; */
+    font-size: 20px;
+    border-radius: 25px;
+    color: black;
+    cursor: pointer;
 }
 button:hover{
-    border: 3px solid #6F4E37;
-    color: black;
-    font-size: 20px;
+    border: solid 3px #38220f;
     background-color: #dbc1ac;
+    font-size: 18px ;
+    color: black;
     cursor: pointer;
-
 }
 a{
     color: #38220f;
