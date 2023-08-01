@@ -57,4 +57,12 @@ button:hover{
 }
 a{
     color: #38220f;
+    margin: 10px;
+    text-decoration: none;
+}
+.hehe{
+    margin-bottom: 15px;
+}
+.ram{
+    margin-top: 25px;
 }

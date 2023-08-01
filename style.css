@@ -29,7 +29,7 @@ body{
     border-bottom: 3px solid #6F4E37;
     width: 250px;
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: 10px;
     outline: none;
     color: black;
 }
@@ -37,20 +37,20 @@ body{
     color: black;
 }
 p{
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 20px;
 }
 
 .text button{
-    width: 250px;
-    height: 44px;
     background-color: #6F4E37;
-    font-size: 22px;
-    color: black;
     border: none;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
     border-radius: 25px;
-    margin-top: 20px;
-    /* cursor: pointer; */
+    color: black;
+    cursor: pointer;
 }
 button:hover{
     border: 3px solid #6F4E37;
@@ -62,4 +62,19 @@ button:hover{
 }
 a{
     color: #38220f;
+    text-decoration: none;
 }
+.link p{
+    /* border: 2px solid #38220f; */
+    background-color: #6F4E37;
+    /* margin: 10px; */
+    font-size: 18px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+.link p:hover{
+    border: solid black;
+}
+
