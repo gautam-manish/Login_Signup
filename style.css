@@ -5,11 +5,11 @@
 body{
     background-image: url(background.jpg);
     background-size: 100% 740px;
-    
+
 }
 .container{
     width: 300px;
-    height: 380px;
+    height: 388px;
     text-align: center;
     color: black;
     background-color: #967259;
@@ -58,7 +58,7 @@ button:hover{
     font-size: 20px;
     background-color: #dbc1ac;
     cursor: pointer;
-
+    
 }
 a{
     color: #38220f;
@@ -75,6 +75,13 @@ a{
     border-radius: 15px;
 }
 .link p:hover{
-    border: solid black;
+    border: 3px solid #6F4E37;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    background-color: #dbc1ac;
+    
 }
 
